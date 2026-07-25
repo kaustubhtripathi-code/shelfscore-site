@@ -12,3 +12,9 @@ Marketing site for **ShelfScore** (ex-NutriScan, the Android food-scanner at
 - User steps: none pending for the site.
 
 Last audit: 2026-07-12 (state = last commit `718a215`, 2026-07-10).
+
+## 2026-07-25 responsive audit
+Audited at 375 / 820 / 1280 in the 7-site pass — **clean, no defects found**: no horizontal
+overflow, no dead CTAs, no nav to lose (single-page, no nav bar), grades encoded by letter
+*and* colour rather than colour alone. Only change: added `color-scheme:dark` so Windows
+renders form controls and scrollbars correctly on the dark background.
